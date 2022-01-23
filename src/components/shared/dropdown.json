@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_dropdowns",
+  "info": {
+    "displayName": "dropdown",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

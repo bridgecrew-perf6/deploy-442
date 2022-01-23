@@ -4,7 +4,8 @@
   "info": {
     "singularName": "boat",
     "pluralName": "boats",
-    "displayName": "boat"
+    "displayName": "boat",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -38,6 +39,15 @@
         }
       },
       "type": "richtext"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
